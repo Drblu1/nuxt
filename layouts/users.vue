@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header></Header>
     <header> USER SECTION</header>
     <Nuxt />
   </div>
@@ -8,3 +9,9 @@
 <style>
 
 </style>
+<script>
+import Header from "../components/Header";
+export default {
+  components: {Header}
+}
+</script>
