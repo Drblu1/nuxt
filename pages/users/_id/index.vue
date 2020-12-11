@@ -6,8 +6,7 @@
 export default {
   name: "_id.vue",
   validate(data) {
-    console.log(data)
-    return true
+    return data.params.id == 1;
   }
 }
 </script>
