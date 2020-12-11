@@ -4,7 +4,11 @@
 
 <script>
 export default {
-  name: "_id.vue"
+  name: "_id.vue",
+  validate(data) {
+    console.log(data)
+    return true
+  }
 }
 </script>
 
